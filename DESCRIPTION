@@ -1,0 +1,22 @@
+Package: economics
+Type: Package
+Title: Economic Data Stream Analysis and Forecasting
+Version: 0.1.0
+Author: Your Name
+Maintainer: Your Name <your.email@example.com>
+Description: A package for processing economic data streams, detecting trends, 
+    and generating forecasts for system integration.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports:
+    forecast,
+    dplyr,
+    lubridate,
+    jsonlite,
+    httr,
+    zoo,
+    xts,
+    TTR
+Suggests:
+    testthat
